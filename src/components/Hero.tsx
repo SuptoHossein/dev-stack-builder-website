@@ -3,7 +3,7 @@ import Banner from './../assets/banner-stack.png'
 const Hero = () => {
   return (
     <div className="container mx-auto flex justify-between items-center my-13">
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col  space-y-10">
         <h2 className="font-bold text-7xl ">
           Build Your Ideal <br />
           <span className='bg-linear-to-r from-[#FE5525] via-[#B925A3] to-[#8038E7] bg-clip-text text-transparent'>Development Stack</span>
