@@ -29,9 +29,9 @@ const Technologies = ({ stackPromise }: stackProps) => {
         </p>
       </div>
 
-      <div className="flex gap-8 mt-10">
-        <div className="w-full md:w-3/4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="flex sm:flex-col md:flex-row gap-8 mt-10">
+        <div className="sm:w-4/4 lg:w-3/4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {stacks.map((stack) => (
               <TechnologyCard
                 key={stack.id}
