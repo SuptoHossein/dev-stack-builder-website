@@ -47,7 +47,7 @@ const TechnologyCard = ({ stack, technologies, setTechnologies }: stackProps) =>
           disabled={addToStack}
           className={`mt-6 text-semibold w-full px-4 py-2 rounded-xl cursor-pointer ${addToStack ? 'bg-rose-200 text-rose-700 border border-rose-600' : 'bg-[#0A0F1D] text-white'}`          }
         >
-          {addToStack === true ? "Added to Stack" : "Add to Stack"}
+          {addToStack === true ? "✓ Added to Stack" : "Add to Stack"}
         </button>
         <p className="absolute top-6 right-9 py-1 bg-rose-100 text-rose-500 border border-rose-300 font-semibold rounded-4xl w-30 text-center">
           {stack.badge}
