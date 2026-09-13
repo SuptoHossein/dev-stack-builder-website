@@ -7,7 +7,7 @@ import Technologies from "./components/Technologies";
 import type { Istack } from "./types/Stack";
 
 const stackFetch = async () : Promise<Istack[]> => {
-  const res = await fetch("/public/data.json");
+  const res = await fetch("/data.json");
   const data = await res.json();
   return data;
 };
