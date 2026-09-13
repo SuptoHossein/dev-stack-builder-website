@@ -24,6 +24,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 + Remove technology.
 + Easy to use.
 + Modern design.
++ Responsive Design
 
 ## JSON Data structure
 
