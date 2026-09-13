@@ -1,6 +1,6 @@
 import TechnologyCard from "./TechnologyCard";
-import SelectedStackCard from "./SelectedStackCard";
-import RemoveAll from "./RemoveAll";
+// import SelectedStackCard from "./SelectedStackCard";
+// import RemoveAll from "./RemoveAll";
 
 const Technologies = () => {
   return (
@@ -30,9 +30,12 @@ const Technologies = () => {
             </div>
 
             <div className="space-y-20">
-              <SelectedStackCard />
+              {/* <SelectedStackCard />
 
-              <RemoveAll />
+              <RemoveAll /> */}
+              <div className="border border-dashed rounded-xl px-3 py-5 text-center border-slate-200">
+                <h2 className="text-[#94A3B8]">Your stack is empty.</h2>
+              </div>
             </div>
           </div>
         </div>
