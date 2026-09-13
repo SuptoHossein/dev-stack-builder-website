@@ -28,7 +28,7 @@ const TechnologyCard = ({ stack, technologies, setTechnologies }: stackProps) =>
           <div className="border border-slate-50 mt-6"></div>
         </div>
 
-        <div className="mt-3 flex justify-between items-center">
+        <div className="mt-3 flex md:flex-col lg:flex-row justify-between items-center">
           <p className="text-[#475569] bg-[#F4F7FA] px-2 py-1 rounded-md">
             {stack.category}
           </p>
