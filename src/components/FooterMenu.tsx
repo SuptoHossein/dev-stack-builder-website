@@ -3,7 +3,7 @@ import Logo from "./../assets/logo-text.png";
 const FooterMenu = () => {
   return (
     <div className="container mx-auto pt-15">
-      <div className="grid grid-cols-1  md:grid-cols-4 md:content-center">
+      <div className="grid grid-cols-1  md:grid-cols-4 content-center">
         <div className="flex flex-col space-y-6">
           <img src={Logo} alt="" width={150} />
           <p className="text-[#94A3B8]">
@@ -24,7 +24,7 @@ const FooterMenu = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="sm:sr-only md:not-sr-only">
           <h2 className="mb-5">PRODUCT</h2>
           <ul className="text-[#94A3B8] space-y-2">
             <li className="hover:text-[#DA2B76]">
@@ -39,7 +39,7 @@ const FooterMenu = () => {
           </ul>
         </div>
 
-        <div className="">
+        <div className="sm:sr-only md:not-sr-only">
           <h2 className="mb-5">COMPANY</h2>
           <ul className="text-[#94A3B8] space-y-2">
             <li className="hover:text-[#DA2B76]">
@@ -54,17 +54,14 @@ const FooterMenu = () => {
           </ul>
         </div>
 
-        <div className="">
-          <h2 className="mb-5">PRODUCT</h2>
+        <div className="sm:sr-only md:not-sr-only">
+          <h2 className="mb-5">LEGAL</h2>
           <ul className="text-[#94A3B8] space-y-2">
             <li className="hover:text-[#DA2B76]">
-              <a href="">Home</a>
+              <a href="">Privacy Policy</a>
             </li>
             <li className="hover:text-[#DA2B76]">
-              <a href="">Technologies</a>
-            </li>
-            <li className="hover:text-[#DA2B76]">
-              <a href="">Projects</a>
+              <a href="">Terms of Service</a>
             </li>
           </ul>
         </div>
