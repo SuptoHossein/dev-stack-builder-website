@@ -9,8 +9,8 @@ interface PropType {
 
 const RemoveAll = ({ technologies, setTechnologies }: PropType) => {
   const handleRemoveAll = () => {
+    toast.warning(`${technologies.length} Technologies are removed.`)
     setTechnologies(technologies = [])
-    toast.warning(`All Technologies are removed.`)
   }
   return (
     <div className="mt-20">
