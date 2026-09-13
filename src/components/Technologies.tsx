@@ -1,4 +1,6 @@
 import TechnologyCard from "./TechnologyCard";
+import SelectedStackCard from "./SelectedStackCard";
+import RemoveAll from "./RemoveAll";
 
 const Technologies = () => {
   return (
@@ -12,7 +14,7 @@ const Technologies = () => {
         </p>
       </div>
 
-      <div className="w-full flex gap-8 mt-20">
+      <div className="w-full flex gap-8 mt-10">
         <div className="w-3/4">
           <div className="grid grid-cols-3 gap-5">
             <TechnologyCard />
@@ -22,12 +24,16 @@ const Technologies = () => {
         </div>
         <div className="w-1/4">
           <div className="border border-slate-200 p-5 rounded-xl">
-            <div className="">
+            <div className="mb-5">
               <h2 className="font-bold text-2xl">Your Stack</h2>
               <p className="text-[#94A3B8]">2 Technolory Selected</p>
             </div>
 
-            <div className="border border-slate-200"></div>
+            <div className="space-y-20">
+              <SelectedStackCard />
+
+              <RemoveAll />
+            </div>
           </div>
         </div>
       </div>

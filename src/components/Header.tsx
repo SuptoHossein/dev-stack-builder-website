@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <div className="border border-b-slate-100">
       <nav className="container mx-auto py-5">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-around items-center">
           <img src={Logo} alt="" />
 
-          <ul className="flex gap-4 font-semibold">
+          <ul className="flex gap-4">
             <li className="hover:text-[#DA2B76] cursor-pointer">Home</li>
             <li className="hover:text-[#DA2B76] cursor-pointer">
               Technologies
@@ -17,7 +17,7 @@ const Header = () => {
             <li className="hover:text-[#DA2B76] cursor-pointer">Contact</li>
           </ul>
 
-          <div className="flex gap-3 font-semibold">
+          <div className="flex gap-3">
             <button className="px-5 py-2 rounded-full transition duration-300 hover:bg-[#ad0f5e] hover:text-white cursor-pointer ">
               Sign In
             </button>
@@ -27,8 +27,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      ;
-      <div className=""></div>
     </div>
   );
 };
