@@ -3,8 +3,8 @@ import Logo from "./../assets/logo-text.png";
 const FooterMenu = () => {
   return (
     <div className="container mx-auto pt-15">
-      <div className="grid grid-cols-1  md:grid-cols-4 content-center">
-        <div className="flex flex-col space-y-6 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 content-center">
+        <div className="flex flex-col items-center md:items-start space-y-6 ">
           <img src={Logo} alt="" width={150} />
           <p className="text-[#94A3B8]">
             Curated tools, technologies, and resources for developers building
@@ -24,7 +24,7 @@ const FooterMenu = () => {
           </div>
         </div>
 
-        <div className="sm:sr-only md:not-sr-only">
+        <div className="xs:sr-only sm:sr-only md:not-sr-only">
           <h2 className="mb-5">PRODUCT</h2>
           <ul className="text-[#94A3B8] space-y-2">
             <li className="hover:text-[#DA2B76]">
